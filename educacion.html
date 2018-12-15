@@ -27,16 +27,89 @@
         <a href="index.html">Página Principal<strong>|</strong></a>
         <a href="experiencia.html">Experiencia<strong>|</strong></a>
       </nav>
-    <h2>Llegadas</h2>
+    <h2>Estudios</h2>
       <table border="1" cellpading="10" cellspacing="0">
       <thead>
         <tr>
           <th>Año</th>
           <th>Institución</<th>
+          <th>Título</th>
           <th>Lugar</th>
           <th>¿Culminó?</th>
         </tr>
       </thead>
+      <tbody>
+        <tr>
+          <td>1.989</td>
+          <td>Colegio Humblodt</td>
+          <td>Bachillerato Secundaria</td>
+          <td>Pavas, San José</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>1.996</td>
+          <td>Universidad Panamericana</td>
+          <td>Bachiller en Análisis de Sistemas de Información</td>
+          <td>La California, San José</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>2002</td>
+          <td>Electromática S.A.</td>
+          <td>Oracle SQL y PL/SQL</td>
+          <td>San José</td>
+          <td>Sí</td>
+        </tr>
+        <tr>
+          <td>2005</td>
+          <td>ISACA</td>
+          <td>Certified Information Systems Auditor</td>
+          <td>San José</td>
+          <td>Sí</td>
+        </tr>
+      </tbody>
+      </table><br/>
+      <form autocomplete="on" name="Agregar Estudios">
+        <fieldset>
+    <h2>Agregar Estudios</h2>
+    <label for="anno"><strong>Año</strong><br/>
+        <select class="anno" name="Opciones" id="anno">
+          <option>2005</option>
+          <option>2006</option>
+          <option>2007</option>
+          <option>2008</option>
+          <option>2009</option>
+          <option>2010</option>
+          <option>2011</option>
+          <option>2012</option>
+          <option>2013</option>
+          <option>2014</option>
+          <option>2015</option>
+          <option>2016</option>
+          <option>2017</option>
+          <option>2018</option>
+        </select>
+      </label>
+        <p><strong>Institución</strong><br/>
+          <input autofocus type="text" name="institucion" placeholder="Ej: Universidad Nacional" maxlength="50" required>
+        </p>
+        <p><strong>Título</strong><br/>
+          <input autofocus type="text" name="titulo" placeholder="Ej: Certificacion\Título" maxlength="50" required>
+        </p>
+        <p><strong>Lugar</strong><br/>
+          <input autofocus type="text" name="lugar" placeholder="Ej: Santa Bárbara, Heredia" maxlength="100" required>
+        </p>
+        <label for="anno"><strong>Culminó</strong><br/>
+            <select class="culmino" name="culmino estudios" id="culmino">
+              <option>Sí</option>
+              <option>No</option>
+            </select>
+          </label>
+        <p>
+          <input type="button" name="enviar" id="envio" value="Enviar">
+        </p>
+      </fieldset>
+  </form>
   </body>
   <footer>
     <a href="mailto:respino00@hotmail.com?subject=feedback">Contacto<strong>|</strong></a>
